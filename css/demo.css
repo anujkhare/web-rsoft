@@ -1,0 +1,28 @@
+@import url('reset.css');
+/*body{
+	background:#f9e830 url(../images/pattern.png) repeat top left;
+	color:#fff;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:12px;
+}*/
+a{
+	color:#000;
+	text-decoration:none;
+}
+
+.container {
+	width:100%;
+	position:relative;
+	z-index:100;
+	margin:40px auto;
+}
+.content {
+	width:1000px;
+	margin:0 auto;
+}
+
+.content{
+	width:100%;
+	position:relative;
+}
+

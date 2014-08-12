@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!-- meta info.! -->
+        <meta charset="utf-8">
+	<meta name="title" content="R-Soft Website" />
+	<meta name="description" content="" />
+        <!-- -->
+        
+        <title>R-Soft | IT BPO Consulting</title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen, print"/>
+	<!--<script src="../js/jQuery.html5Loader.js"></script>  -->
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">	<!-- the navigation plugin css- onepage-scroll by Pete R. https://github.com/peachananr/onepage-scroll  -->
+	<link rel="stylesheet" type="text/css" href="css/basic.css">		<!--everything else-->
+	<link rel="stylesheet" type="text/css" href="css/slimmenu.css" >	<!--for the top menu-->
+	<link rel="stylesheet" type="text/css" href="css/scrollpane.css" />	<!-- Stylesheet for the scrollpanel plugin-->
+	<link rel="stylesheet" type="text/css" href="css/tinybox.css">		<!-- for the tinybox plugin -->
+	<link rel='stylesheet' type='text/css' id='font-headings' href='http://fonts.googleapis.com/css?family=Lato:400,900' media='all' />
+	<link rel="stylesheet" type="text/css" href="css/slider.css" />		<!--for the homepage slideshow-->
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+    </head>
+    
+    <body>
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+    
+	
+	<header>    
+	    <ul class='slimmenu' id="navigation">
+		<li><a onclick='$(".main").moveTo(1)'><span class='accentcolor'>R-SOFT</span></a></li>
+		<li><a id='nav1' onclick='$(".main").moveTo(1)'>Home</a></li>
+		<li><a id='nav2' onclick='$(".main").moveTo(2)'>About</a></li>
+		<li><a id='nav3' onclick='$(".main").moveTo(3)'>Services</a></li>
+		<li><a id='nav4' onclick='$(".main").moveTo(4)'>Careers</a></li>
+		<li><a id='nav5' onclick='$(".main").moveTo(5)'>Contact</a></li>
+	   </ul>
+	</header>
+	
+	<!-- this wraps the scrollabe part of the website" -->
+        <div  class="wrapper">
+	    <div class="main">
+		<section class="page1"> <!-- HOME -->
+<!--		    <div class="container">-->
+			<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>We Are R-SOFT</h2>
+					<p><span>&#8220;Innovating at the speed of light&#8221;</span></p>
+					<!--<a onclick='$(".main").moveTo(1)' class="da-link">Know more</a>-->
+					<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
+				</div>
+				<div class="da-slide">
+					<h2>IT SERVICES</h2>
+					<p style='margin-left: 10%'><span>&#8220;We provide cutting edge solutions to IT problems&#8221;</span></p>
+					<a onclick="TINY.box.show({iframe:'it.html',boxid:'frameless',width:1000,height:600,fixed:false,maskid:'bluemask',maskopacity:40});" class="da-link">Know more</a>
+					<!--<div class="da-img"><img src="images/reliance.png" alt="image01" /></div>-->
+				</div>
+				<div class="da-slide">
+					<h2>REAL ESTATE</h2>
+					<p><span>&#8220;Making Dreams Come True!&#8221;</span></p>
+					<a onclick="TINY.box.show({iframe:'realestate.html',boxid:'frameless',width:900,height:600,fixed:false,maskid:'bluemask',maskopacity:40});" class="da-link">Know more</a>
+					<!--<div class="da-img"><img src="images/premia.png" alt="image01" /></div>-->
+				</div>
+				<div class="da-slide">
+					<h2>BPO SERVICES</h2>
+					<p style='margin-left: 20%'>&#8220;We Outsource for Different Domestic as well as International Clients&#8221;</p>
+					<a onclick="TINY.box.show({iframe:'bpo.html',boxid:'frameless',width:900,height:600,fixed:false,maskid:'bluemask',maskopacity:40});" class="da-link">Know more</a>
+					<!--<div class="da-img"><img src="images/4.png" alt="image01" /></div>-->
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+		</section>
+		
+		<section class="page2"> <!-- ABOUT -->
+		    <div class="page_container">
+			<h1><span>ABOUT</span></h1>
+		    
+			<div id="jp-container1" class="jp-container">
+			    <p>
+				We offer cutting edge technology solutions and expertise to fortune customers. We provide services in enterprise and custom application design, development, testing & support services for Financial, Banking, Insurance, Healthcare, Telecommunication, Manufacturing and other industries. We thrive to provide the highest level of values and customer satisfaction through empowered employees, processes, proven technical expertise and continuous investment in our employees. 
+			    </p>
+			    <h2>WHY US</h2>
+			    <ul>
+				<li><h3>Constantly Investing</h3><p>Our commitment to long term investment continues throughout the company, helping us to boost productivity and ensure we provide an optimum service.</p></li>
+				<li><h3>Experience</h3><p>We have experienced staff that is capable of delivering the best solutions.</p></li>
+				<li><h3>Customer Service</h3><p>World class customer service to provide to all your needs.</p></li>
+				<li><h3>Process Oriented</h3><p>We are a process-oriented organisation. This ensures prompt high quality delivery within strict time frames.</p></li>
+			    </ul>
+			</div>
+		    </div>
+		</section>
+
+		<section class="page3"> <!-- SERVICES -->
+		    <div class="page_container">    
+			<h1><span>SERVICES</span></h1>
+			<div id="jp-container2" class="jp-container">
+			    <div id="servicecontainer">
+				<div id="service1" class="divcareer">
+				    <a onclick="TINY.box.show({iframe:'it.html',boxid:'frameless',width:1000,height:600,fixed:false,maskid:'bluemask',maskopacity:40});" class='a-accordian'>
+				    <div class="img-semicircular" id="img_it"></div>
+				    <h3>IT SERVICES</h3>
+				    <!--<span class="body_text_small">
+					Know More
+				    </span>-->
+				</div>
+				</a>
+				<div id="service1" class="divcareer">
+				    <a onclick="TINY.box.show({iframe:'realestate.html',boxid:'frameless',width:700,height:600,fixed:false,maskid:'bluemask',maskopacity:40});" class='a-accordian'>
+				    <div class="img-semicircular" id="img_it"></div>
+				    <h3>REAL ESTATE</h3>
+				    </a>
+				</div>
+				<div id="service1" class="divcareer">
+				    <a onclick="TINY.box.show({iframe:'bpo.html',boxid:'frameless',width:900,height:600,fixed:false,maskid:'bluemask',maskopacity:40});" class='a-accordian'>				
+				    <div class="img-semicircular" id="img_bpo1"></div>
+				    <h3>BPO</h3>
+				    </a>
+				</div>
+				<div id="service1" class="divcareer">
+				    <a onclick="TINY.box.show({iframe:'iso.html',boxid:'frameless',width:750,height:450,fixed:false,maskid:'bluemask',maskopacity:40});" class='a-accordian'>
+				    <div class="img-semicircular" id="img_it"></div>
+				    <h3>ISO CERTIFICATION</h3>
+				    </a>
+				</div>
+				<div id="service1" class="divcareer">
+				    <!--<a onclick="TINY.box.show({iframe:'iso.html',boxid:'frameless',width:750,height:450,fixed:false,maskid:'bluemask',maskopacity:40});" class='a-accordian'>-->
+				    <div class="img-semicircular" id="img_consulting"></div>
+				    <h3>CONSULTING</h3>
+				    <!--</a>-->
+				</div>
+			    </div>
+			</div>
+		    </div>
+		</section>
+		<section class="page4"> <!-- CAREERS -->
+		    <div class="page_container">  
+			<h1><span>CAREERS</span></h1>
+
+			<div id="jp-container3" class="jp-container">
+			    <p id='para1'>If you are young, dynamic, career oriented, motivated and looking for challenges plus the fun and excitement that comes along with all this, then RsoftG Corporation is your final destination.</p>
+			    <p id='para2'>We offer diverse job profiles :</p>
+			    <div id="careercontainer">
+				<div id="careers_left" class="divcareer">
+				    <span class="spclheading">IT</span>
+				    <div class="img-circular" id="img_it"></div>
+				    <span class="body_text_small"><ul>
+					<li>Web Designer</li>
+					<li>Frontend Developer</li>
+					<li>Backend Developer</li>
+					<!--<li>Java Developer</li>-->
+				    </ul></span>
+				</div>
+				<div id="careers_center" class="divcareer">
+				    <span class="spclheading">BPO</span>
+				    <div class="img-circular" id="img_bpo"></div>
+				    <span class="body_text_small"><ul>
+					<li>Business Development Manager</li>
+					<li>Team Leader</li>
+					<li>Customer Care Executive</li>
+					<li>Technical Voice Support</li>
+					<li>Telesales Executive</li>					
+				    </ul></span>
+				</div>
+				<div id="careers_right" class="divcareer">
+				<span class="spclheading">CONSULTING</span>
+				<div class="img-circular" id="img_hr"></div>
+				
+				<span class="body_text_small"><ul>
+				    <li>HR Manager</li>
+				    <li>Sales Manager</li>
+				    <li>Marketing Executive</li>
+			
+				</ul></span>
+			    </div>
+			    </div>
+			    <div class="clear" />
+			    <p><span onclick='$(".main").moveTo(5);' class='accentcolor'>Want to work with us.?</span></p>
+			</div>
+		    </div>
+		</section>
+	
+		<section class="page5"> <!-- CONTACT -->
+		    <div class="page_container">
+			<h1><span>CONTACT</span></h1>
+		    
+		
+			<div id="jp-container4" class="jp-container">
+			    <p>Feel free to drop us a line. We would love to hear from you.</p>		    
+			    <div id='contact_left'>
+				<ul>
+				    <li></li>
+				</ul>
+			    </div>
+			    <div id='contact_right'>
+				<span class="body_text_small"><ul>
+				    <li><img src='images/email.png' alt="Email:" /> info@rsoftg.co.in</li>
+				    <li><img src='images/phone.png' alt="Phone:" /> +91-8010938750</li>
+				    <li><img src='images/phone.png' alt="Phone:" /> +91-120-4333050</li>
+				    <li><img src='images/address.png' alt="Adress:" /> Noida, India</li>
+				</ul></span>
+				<p>Or connect with us through social networks.</p>
+				<span class="body_text_small"><ul>
+				    <li><a href='https://www.facebook.com/RelianceCommunication'><img src='images/facebook.png' alt="Facebook" /> </a></li>
+				    <li><a href='https://twitter.com'><img src='images/twitter.png' alt="Twitter" /> </a></li>
+				    <li><a href='https://www.linkedin.com'><img src='images/linkedin.png' alt="LinkedIn" /> </a></li>
+				    <li><a href='https://plus.google.com/'><img src='images/googleplus.png' alt="Google Plus" /></a></li>
+				</ul></span>
+			    </div>
+			</div>
+		    </div>
+		</section>	 
+	    </div>		
+        </div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>			<!-- jQuery version 1.9(?)-->
+	<!--<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>  -->	<!-- the navigation plugin - onepage-scroll by Pete R. https://github.com/peachananr/onepage-scroll -->
+        <script type="text/javascript" src="js/jquery.mousewheel.js"></script>		<!-- the mousewheel plugin -->
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>	<!-- the jScrollPane script -->
+	<script type="text/javascript" src="js/scrollpanel.js"></script>		<!-- for the show hide functionality of scroll pane -->
+	<script type="text/javascript" src="js/tinybox.js"></script>
+        <script src="js/jquery.slimmenu.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cslider.js"></script>
+	<script type="text/javascript" src="js/jquery.basic.js"></script>		<!-- Tit-bits-->
+<!--	<script type="text/javascript">
+		//$(function() {
+		//
+		//	$('#da-slider').cslider({
+		//		autoplay	: true,
+		//		bgincrement	: 450
+		//	});
+		//});
+//		$(window).load(function(){
+//		    $('#status').fadeOut(); // will first fade out the loading animation
+//		    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+//		    $('body').delay(350).css({'overflow':'visible'});
+//    	    });
+	</script>-->
+    
+    </body>
+</html>
